@@ -17,7 +17,7 @@ public class CheckPrimeNumber {
         }
 
         public static void main(String[] args) {
-            boolean otvet = ru.job4j.loop.CheckPrimeNumber.check(1);
+            boolean otvet = CheckPrimeNumber.check(1);
             System.out.println(otvet);
         }
     }
