@@ -11,7 +11,7 @@ public class Fitness {
         return month;
     }
     public static void main(String[] args) {
-        int q = Fitness.calc(90, 90);
+        int q = Fitness.calc(90, 290);
         System.out.println(q);
     }
 }
