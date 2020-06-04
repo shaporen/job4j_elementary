@@ -20,8 +20,6 @@ public class Slash {
     }
 
     public static void main(String[] args) {
-        System.out.println("Draw by 3");
-        draw(3);
         System.out.println("Draw by 11");
         draw(11);
     }
