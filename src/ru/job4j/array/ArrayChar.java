@@ -14,10 +14,8 @@ public class ArrayChar {
 
     public static void main(String[] args) {
         char[] max = new char[] {'H', 'e', 'l', 'l', 'o'};
-        char[] min = new char[] {'H', 'i'};
+        char[] min = new char[] {'H', 'e', 'l', 'k'};
         boolean rst = startWith(max, min);
-        for (int a = 0; a < min.length - 1; a++) {
-            System.out.println(rst);
-        }
+        System.out.println(rst);
     }
 }
