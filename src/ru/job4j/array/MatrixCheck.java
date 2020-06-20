@@ -17,6 +17,6 @@ public class MatrixCheck {
                 {'X', 'X', 'X'},
                 {' ', ' ', ' '},
         };
-        System.out.println(monoHorizontal(input, 2));
+        System.out.println(monoHorizontal(input, 1));
     }
 }
