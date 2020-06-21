@@ -16,7 +16,7 @@ public class SortSelected {
         int[] massiv = new int[] {6, 5, 9, 7, 2, 3, 4};
         int[] qaz = sort(massiv);
         for (int abc = 0; abc < qaz.length; abc++) {
-            System.out.println(qaz[abc]);
+            System.out.printf("%3d", qaz[abc]);
         }
     }
 }
