@@ -7,7 +7,6 @@ public class MultiMax {
         return e;
         }
 
-
     public static void main(String[] args) {
         int result = MultiMax.max(4, 7, 10);
         System.out.println(result);

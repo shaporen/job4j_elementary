@@ -43,14 +43,14 @@ public class MatrixCheck {
     }
     public static void main(String[] args) {
         char[][] input = {
-                {'X', 'X', ' ', 'X', 'X'},
                 {'X', 'X', 'X', ' ', 'X'},
-                {' ', 'X', 'X', ' ', ' '},
-                {' ', ' ', ' ', ' ', ' '},
-                {' ', 'X', 'X', ' ', 'X'},
+                {'X', 'X', 'X', ' ', 'X'},
+                {'X', 'X', ' ', ' ', ' '},
+                {' ', ' ', ' ', 'X', ' '},
+                {'X', 'X', 'X', ' ', 'X'},
         };
-        System.out.println(monoHorizontal(input, 1));
-        System.out.println(monoVertical(input, 1));
+        System.out.println(monoHorizontal(input, 0));
+        System.out.println(monoVertical(input, 0));
         System.out.println(extractDiagonal(input));
         System.out.println(isWin(input));
         }
