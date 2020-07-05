@@ -19,5 +19,6 @@ public class PointTest {
         Point b = new Point(1, 7);
         double out = a.distance(b);
         Assert.assertEquals(expected, out, 0.01);
+
     }
 }
