@@ -6,12 +6,18 @@ import org.junit.Test;
 public class PointTest {
     @Test
     public void testDistance() {
-        double expected = 4.12;
-        double out = Point.distance(1, 1, 2, 5);
-        Assert.assertEquals(expected, out, 0.01); }
+        double expected = 2.00;
+        Point a = new Point(0, 0);
+        Point b = new Point(0, 2);
+        double out = a.distance(b);
+        Assert.assertEquals(expected, out, 0.01);
+    }
     @Test
     public void testDistance1() {
-        double expected = 2.82;
-        double out = Point.distance(0, 5, 2, 7);
-        Assert.assertEquals(expected, out, 0.01); }
+        double expected = 7.07;
+        Point a = new Point(0, 0);
+        Point b = new Point(1, 7);
+        double out = a.distance(b);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
