@@ -5,12 +5,25 @@ import com.sun.jdi.connect.Connector;
 public class Max {
     public static int max(int first, int second) {
         boolean rst = first > second;
-        int r = rst ? first : second;
-        return r;
+        return rst ? first : second;
+    }
+
+    public static int max(int first, int second, int third) {
+        boolean rst = max(first, second) > third;
+        return rst ? max(first, second) : third;
+    }
+
+    public static int max(int first, int second, int third, int firth) {
+        boolean rst = max(first, second, third) > firth;
+        return rst ? max(first, second, third) : firth;
     }
 
     public static void main(String[] args) {
-        int i = Max.max(2, 2);
+        int i = Max.max(3, 5);
+        int y = Max.max(3, 5, 7);
+        int z = Max.max(5, 3, 9, 1);
         System.out.println(i);
+        System.out.println(y);
+        System.out.println(z);
     }
 }

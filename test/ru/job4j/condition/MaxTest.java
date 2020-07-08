@@ -20,4 +20,14 @@ public class MaxTest {
         int result = Max.max(5, 5);
         assertThat(result, is(5));
     }
+    @Test
+    public void whenMax3To5To7Then7() {
+        int result = Max.max(5, 3, 7);
+        assertThat(result, is(7));
+    }
+    @Test
+    public void whenMax3To5To7To9Then9() {
+        int result = Max.max(9, 5, 3, 7);
+        assertThat(result, is(9));
+    }
 }
