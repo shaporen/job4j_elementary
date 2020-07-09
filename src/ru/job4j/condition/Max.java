@@ -9,13 +9,11 @@ public class Max {
     }
 
     public static int max(int first, int second, int third) {
-        boolean rst = max(first, second) > third;
-        return rst ? max(first, second) : third;
+        return max(max(first, second), third);
     }
 
     public static int max(int first, int second, int third, int firth) {
-        boolean rst = max(first, second, third) > firth;
-        return rst ? max(first, second, third) : firth;
+        return max(max(first, second, third), firth);
     }
 
     public static void main(String[] args) {
