@@ -11,7 +11,7 @@ public class MagicBall {
         int answer = new Random().nextInt(3);
         String otvet;
         switch (answer) {
-            case 0
+            case 0:
                 otvet = "Да";
                 break;
 
