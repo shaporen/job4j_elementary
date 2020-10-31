@@ -10,5 +10,6 @@ public class SkazkaKolobok {
         lisa.tryEat(ball);
         zayats.tryEat(ball);
         volk.tryEat(ball);
+        volk.tryEat(lisa);
     }
 }
