@@ -21,9 +21,13 @@ public class Matches {
            }
             System.out.println("ход игрока №" + (nomer ? 1 : 2));
            int chislo = Integer.valueOf(hod.nextLine());
-           if (chislo > 0 && chislo < 4 && chislo <= vsego) {
-               vsego -= chislo;
-               nomer = !nomer;
+           if (chislo > 0 && chislo < 4) {
+               if (chislo <= vsego) {
+                   vsego -= chislo;
+                   nomer = !nomer;
+               } else {
+                   System.out.println("На столе нет такого количества спичек");
+               }
            } else {
                System.out.println("игрок №" + (nomer ? 1 : 2) + " ,введите число от 1 до 3");
            }
