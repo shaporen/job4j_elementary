@@ -12,7 +12,7 @@ public class Fact {
         return rsl;
     }
     public static void main(String[] args) {
-        int n = -5;
+        int n = 5;
         System.out.println("The Factorial of " + n + " is " + Fact.calc(n));
     }
 
