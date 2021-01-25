@@ -13,6 +13,6 @@ public class MinDiapason {
 
     public static void main(String[] args) {
         int[] massiv = new int[] {6, 5, 9, 7, 2, 3, 4};
-        System.out.println(MinDiapason.findMin(massiv, 0, 2));
+        System.out.println(MinDiapason.findMin(massiv, 2, 3));
     }
 }
