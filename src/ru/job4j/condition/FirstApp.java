@@ -5,6 +5,7 @@ public class FirstApp {
 
         try{
             Scanner in = new Scanner(System.in);
+            System.out.println("Введите число");
             int x = in.nextInt();
             if(x>=30){
                 throw new Exception("Число х должно быть меньше 30");
