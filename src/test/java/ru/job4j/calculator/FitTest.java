@@ -14,7 +14,7 @@ class FitTest {
     }
 
     @Test
-    void whenManHeight174Than85point1() {
+    void whenManHeight174Than85dot1() {
         short in = 174;
         double expected = 85.1;
         double out = Fit.manWeight(in);
@@ -30,7 +30,7 @@ class FitTest {
     }
 
     @Test
-    void whenWomanHeight157Than54point05() {
+    void whenWomanHeight157Than54dot05() {
         short in = 157;
         double expected = 54.05;
         double out = Fit.womanWeight(in);
