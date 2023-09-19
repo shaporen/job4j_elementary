@@ -12,7 +12,7 @@ public class TwoNumberSum {
             }
             if (j == array.length - 1) {
                 i++;
-                j = i;
+                j++;
             }
             j++;
         }
