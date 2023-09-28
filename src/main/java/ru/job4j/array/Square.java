@@ -14,5 +14,6 @@ public class Square {
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
+        System.out.printf("%s%s,I am %d years old", "boy", "Hello", 12);
     }
 }
