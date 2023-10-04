@@ -20,6 +20,6 @@ public class SimpleStringEncoder {
                 }
             }
         }
-        return counter > 1 ? result + symbol + counter : result + symbol;
+        return counter > 1 ? result + symbol + counter : (result + symbol);
     }
 }
