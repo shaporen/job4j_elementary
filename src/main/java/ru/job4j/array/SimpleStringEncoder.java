@@ -22,12 +22,8 @@ public class SimpleStringEncoder {
         }
         if (counter > 1) {
             result += symbol + Integer.toString(counter);
-            symbol = input.charAt(input.length() - 1);
-            counter = 1;
         } else {
             result += symbol;
-            symbol = input.charAt(input.length() - 1);
-            counter = 1;
         }
         return result;
     }
