@@ -20,6 +20,11 @@ public class SimpleStringEncoder {
                 }
             }
         }
+        if (counter > 1) {
+            result += symbol + Integer.toString(counter);
+        } else {
+            result += symbol;
+        }
         return result;
     }
 }
